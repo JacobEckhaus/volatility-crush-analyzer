@@ -2,6 +2,15 @@
 
 A Python desktop application for exploring how changes in stock price and assumed implied volatility affect the theoretical value and Greeks of a straddle. It combines a Tkinter interface, Black–Scholes pricing, and Interactive Brokers stock-price data.
 
+
+## Preview
+
+![Volatility crush scenario: IV falls from 60% to 30%](dashboard.png)
+
+With spot and expiry unchanged, reducing assumed IV from 60% to 30%
+lowers the theoretical straddle value from $31.54 to $15.80,
+producing a $15.74 loss per share for the long straddle.
+
 ## Features
 
 - Connect to Interactive Brokers TWS or IB Gateway using configurable host and port settings.
